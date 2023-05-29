@@ -1,0 +1,5 @@
+package com.jlucas.users.repositories;
+
+public interface UserRepository {
+
+}

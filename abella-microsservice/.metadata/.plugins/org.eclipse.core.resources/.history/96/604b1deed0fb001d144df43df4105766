@@ -1,0 +1,5 @@
+package com.microservices.product.repositories;
+
+public class ProductRepository {
+
+}

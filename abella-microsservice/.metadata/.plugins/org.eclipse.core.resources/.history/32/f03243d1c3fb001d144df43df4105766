@@ -1,0 +1,7 @@
+package com.microservices.user.repositories;
+
+import com.microservices.user.entities.Users;
+
+public class UserRepository extends JpaRepository<Users, Long> {
+
+}

@@ -1,0 +1,5 @@
+package com.microservices.user.services;
+
+public class UserService {
+
+}

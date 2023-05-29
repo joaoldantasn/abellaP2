@@ -1,0 +1,5 @@
+package com.jlucas.users.controllers;
+
+public class UserController {
+
+}

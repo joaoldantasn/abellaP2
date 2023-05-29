@@ -1,0 +1,5 @@
+package com.jlucas.users.entities;
+
+public class Users {
+
+}

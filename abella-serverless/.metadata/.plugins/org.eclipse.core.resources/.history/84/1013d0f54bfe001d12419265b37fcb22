@@ -1,0 +1,5 @@
+package com.jlucas.products.services;
+
+public class ProductService {
+
+}

@@ -1,0 +1,5 @@
+package com.jlucas.users.services;
+
+public class UserService {
+
+}

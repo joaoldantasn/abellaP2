@@ -1,0 +1,5 @@
+package com.jlucas.products.controllers;
+
+public class ProductController {
+
+}

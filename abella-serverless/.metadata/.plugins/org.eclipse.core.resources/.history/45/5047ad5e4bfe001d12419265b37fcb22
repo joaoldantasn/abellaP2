@@ -1,0 +1,5 @@
+package com.jlucas.products.entities;
+
+public class Products {
+
+}

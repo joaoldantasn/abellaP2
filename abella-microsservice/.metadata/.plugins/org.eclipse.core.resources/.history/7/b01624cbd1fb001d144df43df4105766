@@ -1,0 +1,35 @@
+package com.microservices.product.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.microservices.product.entities.Product;
+import com.microservices.product.repositories.ProductRepository;
+
+@Service
+public class ProductService {
+	
+	@Autowired
+	private ProductRepository repository;
+	
+	public boolean existe(Long id) {
+		return repository.existsById(id);
+	}
+	
+	//POST
+	public Product addProduct(Product product) {
+		return repository.save(product);
+	}
+	
+	//GETALL
+	public List<Product> listarProdutos(){
+		return repository.findAll();
+	}
+	
+	//DELETE
+	public void deleteProduct(Long id) {
+		repository.deleteById(id);
+	}
+}

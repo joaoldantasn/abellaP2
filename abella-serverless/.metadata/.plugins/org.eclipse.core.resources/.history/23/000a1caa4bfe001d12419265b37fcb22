@@ -1,0 +1,5 @@
+package com.jlucas.products.repositories;
+
+public interface ProductRepository extends JpaRepository {
+
+}
